@@ -1,0 +1,11 @@
+# Problem 2:  Determine whether a given string is Palindrome
+str = 'India'  
+strstr = str.casefold()  
+  
+# This string is reverse.  
+rev = reversed(str)  
+  
+if list(str) == list(rev):  
+   print("PALINDROME !")  
+else:  
+   print("NOT PALINDROME !")  
